@@ -22,7 +22,7 @@ Find unused AWS resources costing you money. No admin panel, hosted identity ser
 - [API Reference](#api-reference)
 - [What It Scans](#what-it-scans)
 - [Configuration Reference](#configuration-reference)
-- [Relationship to Cost-OPS Platform](#relationship-to-costops-platform)
+- [Relationship to CloudVanna Platform](#relationship-to-costops-platform)
 - [License](#license)
 
 ---
@@ -623,9 +623,9 @@ All settings go in `config.env` (or as environment variables):
 
 ---
 
-## Relationship to Cost-OPS Platform
+## Relationship to CloudVanna Platform
 
-This is the open-source core of the [Cost-OPS AWS Scanner](../costops-AWS-scanner/) platform. The full platform adds:
+This is the open-source core of the [CloudVanna AWS Scanner](../cbp-AWS-scanner/) platform. The full platform adds:
 
 - Multi-tenant support with per-tenant IAM role assumption
 - Amazon Cognito SSO with JWT zero-trust auth on every endpoint
