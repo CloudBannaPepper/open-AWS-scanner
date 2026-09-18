@@ -22,7 +22,7 @@ Find unused AWS resources costing you money. No admin panel, hosted identity ser
 - [API Reference](#api-reference)
 - [What It Scans](#what-it-scans)
 - [Configuration Reference](#configuration-reference)
-- [Relationship to CloudVanna Platform](#relationship-to-costops-platform)
+- [Relationship to CloudVanna Platform](#relationship-to-CloudBannaPepper-platform)
 - [License](#license)
 
 ---
