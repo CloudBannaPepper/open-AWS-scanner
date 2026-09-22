@@ -520,6 +520,15 @@ AWS_EXTERNAL_ID=my-scanner
 
 All releases are signed with [Sigstore](https://www.sigstore.dev/).
 
+### Monthly maintenance and releases
+
+Dependabot checks Python and GitHub Actions dependencies monthly. On the first
+day of each month, the monthly release workflow runs the package smoke checks,
+creates a patch release when changes exist since the previous tag, and opens a
+GitHub Release. Publishing that release triggers the existing PyPI workflow.
+
+The workflow can also be started manually from the repository's **Actions** tab.
+
 ### Verify a release
 
 ```bash
