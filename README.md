@@ -529,6 +529,12 @@ GitHub Release. Publishing that release triggers the existing PyPI workflow.
 
 The workflow can also be started manually from the repository's **Actions** tab.
 
+To email the release summary through the CloudBananaPepper contact API, add
+these repository secrets under **Settings → Secrets and variables → Actions**:
+
+- `CONTACT_ALERT_API_URL`: the contact API's `/internal/alert` URL.
+- `CONTACT_ALERT_SECRET`: the matching internal alert secret.
+
 ### Verify a release
 
 ```bash
